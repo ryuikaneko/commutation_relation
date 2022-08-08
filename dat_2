@@ -1,0 +1,6 @@
+sp: -sqrt(2)*Dagger(a)*a**2 + Dagger(a)*a**2 - Dagger(a)**2*a**3 + sqrt(2)*Dagger(a)**2*a**3/2 + sqrt(2)*a
+sm: sqrt(2)*Dagger(a) - sqrt(2)*Dagger(a)**2*a + Dagger(a)**2*a - Dagger(a)**3*a**2 + sqrt(2)*Dagger(a)**3*a**2/2
+sz=[sp,sm]/2: 1 - Dagger(a)*a - 2*sqrt(2)*Dagger(a)**3*a**3 + 4*Dagger(a)**3*a**3 - 5*sqrt(2)*Dagger(a)**4*a**4/2 + 15*Dagger(a)**4*a**4/4
+[sz,sp]: -sqrt(2)*Dagger(a)*a**2 + Dagger(a)*a**2 - Dagger(a)**2*a**3 + sqrt(2)*Dagger(a)**2*a**3/2 - 75*sqrt(2)*Dagger(a)**3*a**4 + 113*Dagger(a)**3*a**4 - 92*sqrt(2)*Dagger(a)**4*a**5 + 133*Dagger(a)**4*a**5 - 35*sqrt(2)*Dagger(a)**5*a**6/2 + 25*Dagger(a)**5*a**6 + sqrt(2)*a
+[sz,sm]: -sqrt(2)*Dagger(a) - Dagger(a)**2*a + sqrt(2)*Dagger(a)**2*a - sqrt(2)*Dagger(a)**3*a**2/2 + Dagger(a)**3*a**2 - 113*Dagger(a)**4*a**3 + 75*sqrt(2)*Dagger(a)**4*a**3 - 133*Dagger(a)**5*a**4 + 92*sqrt(2)*Dagger(a)**5*a**4 - 25*Dagger(a)**6*a**5 + 35*sqrt(2)*Dagger(a)**6*a**5/2
+sp^2: -sqrt(2)*Dagger(a)*a**3 + sqrt(2)*Dagger(a)**2*a**4/2 - 3*sqrt(2)*Dagger(a)**3*a**5 + 5*Dagger(a)**3*a**5 - sqrt(2)*Dagger(a)**4*a**6 + 3*Dagger(a)**4*a**6/2 + sqrt(2)*a**2
